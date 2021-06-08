@@ -1,0 +1,117 @@
+/* CSS PARA PORTAFOLIOS*/
+.img{
+    margin-left: 80px
+}
+.img img{
+    width: 280px;
+    height: 280px;
+    margin: 30px;
+    flex-direction: row;
+}
+
+.tamaño{
+    width: 50% ;
+    height: 30%;
+    border-radius: 25px;
+}
+
+.banner{
+    background-color: purple;
+    color: white;
+    text-align: center;
+}
+
+#slider{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.letras{
+    margin-left: auto;
+    margin-right: auto;    
+    text-align: center;
+    width: 40%;
+    color: white;
+}
+
+main{
+    background-color: black;
+}
+
+.btn{
+    margin-left: 700px;
+    color: white;
+}
+
+/* Pantallas Medianas]*/
+
+@media only screen and (max-width: 760px){
+
+    .banner{
+        font-size: medium;
+    }
+
+    .letras{
+        display: none;
+    }
+
+    .img img{
+        width: 250px;
+        height: 250px;
+        margin: 30px;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .btn{
+        margin-left: 350px;
+        color: white;
+        font-size: small;
+    }
+
+    #redes{
+        display: block;
+        flex-direction: column;
+    }
+
+}
+
+/* Pantallas Pequeñas*/
+
+@media only screen and (max-width: 600px){
+
+    .banner{
+        font-size: small;
+    }
+
+    #slider {
+        display: none;
+    }
+
+    .letras{
+        display: none;
+    }
+
+    .img img{
+        width: 250px;
+        height: 250px;
+        margin: 30px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .btn{
+        margin-left: 200px;
+        color: white;
+        font-size: small;
+    }
+
+    #redes{
+        display: inline-flex;
+        flex-direction: row;
+        margin-right: 100px;
+    }
+
+}

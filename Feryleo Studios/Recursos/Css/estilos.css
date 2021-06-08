@@ -1,0 +1,301 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+/* Header*/
+.deta{
+    background-color: rgb(235, 106, 60);
+    display: inline-flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+header h2{
+    color: aliceblue;
+    margin-left: 200px;
+}
+
+header nav ul{
+    display: inline-flex;
+    flex-direction: row;
+    margin-left: 900px;
+}
+
+nav ul li{
+    list-style: none;
+    margin-left: 15px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+
+/* Menu Lateral*/
+#lateral {
+    background-color: orange;
+    width: min-content;
+    height: 500px;
+}
+
+#lateral nav ul li{
+    list-style: none;
+    margin-top: 50px;
+}
+
+#lateral nav ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: larger;
+}
+
+/* Información*/
+.alinear{
+    display: inline-flex;
+    flex-direction: row;
+}
+
+#info{
+    display: inline-flex;
+    flex-direction: row;
+}
+
+#info h3{
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+#info p{
+    margin-top: 100px;
+}
+
+/* Tarjetas*/
+.tarjet{
+    background-color: rgb(241, 241, 241);
+    width: 40%;
+    padding: 30px;
+    margin: 15px;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: auto;
+    border-radius: 15px; 
+}
+
+.tarjet div{
+    padding: 30px;
+}
+
+.tarjet div img{
+    width: 150px;
+    height: 140px;
+    text-align: center; 
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px; 
+}
+
+/* Tarjeta Diseñadores*/
+.tarjetD{ 
+    background-color: rgb(241, 241, 241);
+    width: 50%;
+    padding: 50px;
+    margin: 15px;
+    display: inline-flex;
+    flex-direction: row;
+}
+
+.imgDis{
+    width: 300px;
+    height: 500px;
+    margin-left: 50px;
+}
+
+/* Pie de pagina*/
+
+.texto{
+    width: 800px;
+    margin-left: 100px;
+}
+
+footer nav ul{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+footer h3{
+    color: aliceblue;
+}
+
+/*Extras*/
+.imgFeryleo{
+    height: 500px;
+    width: 400px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+/* Pantallas Medianas*/
+
+@media only screen and (max-width: 760px){
+
+    .deta{
+        background-color: rgb(243, 83, 24);
+        display: inline-flex;
+        width: 100%;
+    }
+    
+    header h2{
+        color: aliceblue;
+        margin-left: 200px;
+        font-size: x-large;
+    }
+    
+    header nav ul{
+        display: inline-flex;
+        flex-direction: row;
+        margin-left: 100px;
+    }
+    
+    #lateral{
+        display: none;
+    }
+
+    .tarjet{
+        background-color: rgb(241, 241, 241);
+        width: 50%;
+        padding: 30px;
+        margin: 15px;
+        text-align: center;
+        margin-left: 50px;
+        margin-right: auto;
+        border-radius: 15px; 
+    }
+
+    .tarjetD{ 
+        background-color: rgb(241, 241, 241);
+        width: 50%;
+        padding: 50px;
+        margin: 15px;
+        display: block;
+        flex-direction: column;
+    }
+
+    #redes{
+        display: block;
+        flex-direction: column;
+    }
+}
+
+/*Pantallas Pequeñas*/
+@media only screen and (max-width: 600px){
+    .deta{
+        background-color: rgb(255, 68, 0);
+        display: inline-flex;
+        width: 100%;
+    }
+    
+    header h2{
+        color: aliceblue;
+        margin-left: 200px;
+        font-size: large;
+    }
+    
+    header nav ul{
+        display: none;
+    }
+
+    #info img{
+        width: 200px;
+        height: 300px;
+    }
+
+    #info h3{
+        font-size: xx-large;
+    }
+
+    #info p{
+        display: none;
+    }
+    
+    #lateral{
+        display: none;
+    }
+
+    .tarjet{
+        background-color: rgb(100, 98, 98);
+        width: 70%;
+        padding: 30px;
+        margin: 15px;
+        text-align: center;
+        margin-left: 50px;
+        margin-right: auto;
+        border-radius: 15px; 
+    }
+
+    .tarjetD{ 
+        background-color: rgb(100, 98, 98);
+        width: 70%;
+        padding: 50px;
+        margin: 15px;
+        display: block;
+        flex-direction: column;
+    }
+
+    footer section{
+        display: none;
+    }
+
+    footer h3{
+        display: none;
+    }
+
+    #redes{
+        display: inline-flex;
+        flex-direction: row;
+    }
+
+}
+
+
+/* ANIMACIONES*/
+.miBoton {
+    background-color: rgb(241, 103, 11);
+    font-style: italic;
+    margin: 0px 5px;
+    padding: 5px;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    position: relative;
+} 
+
+.miBoton:hover { color: white; } 
+
+.miBoton.styleTwo::before{
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    z-index: -1;
+    /* Se convierte en el background está una capa mas alejado del usuarios*/
+    background-color: darkgray;
+    transition: transform 300ms ease-in-out;
+    transform: scaleX(0);
+    transform-origin: left;
+    }
+
+.miBoton.styleTwo:hover::before{ transform: scaleX(1); }
+
+.miBoton.styleTwo { z-index: 1; }
+
+@keyframes mover{
+    0%{
+      transform: translate(100%);
+    }
+  }
