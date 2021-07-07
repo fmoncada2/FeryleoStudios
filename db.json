@@ -1,0 +1,13 @@
+{
+    "Bienvenida":[
+        {
+            "id": 1, "Historia": "Somos un par de estudiantes de Arte Digital y Animación creamos esta página con el obejtivo de dar a conocer nuestro trabajo en Fotografía e Ilustración. En está página te acompañara nuestro personaje Feryleo."
+        }
+    ],
+
+    "PiePag":[
+        {"id": 1, "Tit": "Feryleo Studios","Texto": "Feryleo Studios nace como la idea de dos amigos de crear un Studio dedicado al arte, en especial a la fotografía e ilustración."},
+        {"id": 2, "Tit": "Personaje Feryleo","Texto": "Feryleo represente la imagen de nuestro estudio, quien nació para darle vida a nuestras plataformas digitales. Es un personaje que combina nuestras personalidades. Amante de la fotografía y la ilustración y todo lo referente al arte. Es un personaje activo que le gusta bailar, hacer deporte y divertirse, se ríe mucho y se toma las cosas con calma, pero es una persona seria cuando se requiere. Enemigo de la discriminación y el maltrato. Es muy familiar y adora pasar tiempo con sus amigos."},
+        {"id": 3, "Tit": "Contacto","Texto": "Puedes contactor con nosotros a tráves de nuestras redes o por correo."}
+    ]
+}
