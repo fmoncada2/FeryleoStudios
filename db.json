@@ -1,15 +1,9 @@
 {
     "Bienvenida":[
         {
-            "id": 1, 
-            "Tit": "Bienvenidos", 
-            "Historia": "Feryleo Studios nace como un proyecto a futuro. Tenemos está idea de fundar un estudio en Nicaragua dedicado al arte, especialmente a la fotografía e ilustración. Llevamos más de un año con esta idea y aprovechando el momento hemos decidido comenzar a darnos un simulacro de identidad como una futura empresa."
+            "Tit": "Bienvenidos a Feryleo Studios",
+            "Historia": "Feryleo Studios nace como un proyecto a futuro. Tenemos está idea de fundar un estudio en Nicaragua dedicado al arte, especialmente a la fotografía e ilustración. Llevamos más de un año con esta idea y aprovechando el momento hemos decidido comenzar a darnos un simulacro de identidad como una futura empresa. Hemos creado esta página web con el objetivo de dar a conocer tanto nuestro trabajo como dar conocer nuestra identidad como empresa. La página contiene desde nuestra historia, el personaje, información del personaje, maneras de contactarnos y por supuesto los portafolios de fotografía e ilustración."
 
-        },
-        {
-            "id": 2, 
-            "Tit": "Feryleo Studios", 
-            "Historia": " Hemos creado esta página web con el objetivo de dar a conocer tanto nuestro trabajo como dar conocer nuestra identidad como empresa. La página contiene desde nuestra historia, el personaje, información del personaje, maneras de contactarnos y por supuesto los portafolios de fotografía e ilustración."
         }
     ]
 }
