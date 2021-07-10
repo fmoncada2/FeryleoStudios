@@ -6,8 +6,27 @@
     width: 280px;
     height: 280px;
     margin: 30px;
-    flex-direction: row;
+    flex-direction: row; 
 }
+
+.contenedor {
+    position: relative;
+    height: 280px;
+    width: 280px;
+    margin: 50px 20px;
+    float: left;
+  }
+  
+  .contenedor img {
+    position: absolute;
+    left: 0;
+    transition: opacity 1.5s ease-in-out;
+    border-radius: 10px;
+  }
+  
+  .contenedor img.top:hover {
+    opacity: 0;
+  }
 
 .tamaño{
     width: 50% ;
@@ -16,7 +35,7 @@
 }
 
 .banner{
-    background-color: purple;
+    background-color: #8645af;
     color: white;
     text-align: center;
 }
@@ -26,6 +45,7 @@
     justify-content: center;
     padding: 20px;
 }
+
 
 .letras{
     margin-left: auto;

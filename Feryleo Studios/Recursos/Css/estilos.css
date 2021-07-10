@@ -3,9 +3,14 @@
     padding: 0%;
 }
 
+.color{
+    background-color: black;
+    color: white;
+}
+
 /* Header*/
 .deta{
-    background-color: rgb(235, 106, 60);
+    background-color: #ffa754;
     display: inline-flex;
     flex-direction: row;
     width: 100%;
@@ -14,12 +19,14 @@
 header h2{
     color: aliceblue;
     margin-left: 200px;
+    margin-top: 25px;
 }
 
 header nav ul{
     display: inline-flex;
     flex-direction: row;
-    margin-left: 900px;
+    margin-left: 800px;
+    margin-top: 30px;
 }
 
 nav ul li{
@@ -32,12 +39,20 @@ nav ul li a{
     color: aliceblue;
 }
 
+.logo{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+
 
 /* Menu Lateral*/
 #lateral {
-    background-color: orange;
+    background-color: #54c370;
     width: min-content;
-    height: 500px;
+    height: 400px;
 }
 
 #lateral nav ul li{
@@ -63,18 +78,17 @@ nav ul li a{
 }
 
 #info h3{
-    margin-top: 50px;
-    margin-left: 10px;
-    margin-right: 20px;
+ margin: 5px;
 }
 
 #info p{
     margin-top: 100px;
+    margin-left: -115px;
 }
 
 /* Tarjetas*/
 .tarjet{
-    background-color: rgb(241, 241, 241);
+    background-color: #8645af;
     width: 40%;
     padding: 30px;
     margin: 15px;
@@ -99,7 +113,7 @@ nav ul li a{
 
 /* Tarjeta Diseñadores*/
 .tarjetD{ 
-    background-color: rgb(241, 241, 241);
+    background-color: #8645af;
     width: 50%;
     padding: 50px;
     margin: 15px;
@@ -132,8 +146,8 @@ footer h3{
 
 /*Extras*/
 .imgFeryleo{
-    height: 500px;
-    width: 400px;
+    height: 400px;
+    width: 300px;
     margin-left: 20px;
     margin-right: 10px;
 }
@@ -143,7 +157,7 @@ footer h3{
 @media only screen and (max-width: 760px){
 
     .deta{
-        background-color: rgb(243, 83, 24);
+        background-color: #ffa754;
         display: inline-flex;
         width: 100%;
     }
@@ -157,7 +171,7 @@ footer h3{
     header nav ul{
         display: inline-flex;
         flex-direction: row;
-        margin-left: 100px;
+        margin-left: 80px;
     }
     
     #lateral{
@@ -165,7 +179,7 @@ footer h3{
     }
 
     .tarjet{
-        background-color: rgb(241, 241, 241);
+        background-color: #8645af;
         width: 50%;
         padding: 30px;
         margin: 15px;
@@ -176,7 +190,7 @@ footer h3{
     }
 
     .tarjetD{ 
-        background-color: rgb(241, 241, 241);
+        background-color: #8645af;
         width: 50%;
         padding: 50px;
         margin: 15px;
@@ -193,7 +207,7 @@ footer h3{
 /*Pantallas Pequeñas*/
 @media only screen and (max-width: 600px){
     .deta{
-        background-color: rgb(255, 68, 0);
+        background-color: #ffa754;
         display: inline-flex;
         width: 100%;
     }
@@ -226,7 +240,7 @@ footer h3{
     }
 
     .tarjet{
-        background-color: rgb(100, 98, 98);
+        background-color: #8645af;
         width: 70%;
         padding: 30px;
         margin: 15px;
@@ -237,7 +251,7 @@ footer h3{
     }
 
     .tarjetD{ 
-        background-color: rgb(100, 98, 98);
+        background-color: #8645af;
         width: 70%;
         padding: 50px;
         margin: 15px;
@@ -263,7 +277,6 @@ footer h3{
 
 /* ANIMACIONES*/
 .miBoton {
-    background-color: rgb(241, 103, 11);
     font-style: italic;
     margin: 0px 5px;
     padding: 5px;
